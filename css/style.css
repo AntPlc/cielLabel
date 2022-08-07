@@ -243,7 +243,7 @@ ul {
 /* MEDIA QUERY */
 
 /* For mobile phones: */
-@media (min-width: 350px) {
+@media (min-width: 200px) {
   .titre {
     font-size: 15px;
   }
