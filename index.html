@@ -86,8 +86,13 @@
       </div>
       <br /><br />
       <!-- newsletter -->
-      <form id="mc-newsletter" action="newsletter/config.php" method="post">
-      </form>
+      <form id="singular-form">
+        <button class="shown" type="button" id="subs">Subscribe</button>
+        <div id="email-input">
+            <input type="text" placeholder="E-mail" id="email">
+            <button type="button" class="addbut1" disabled="disabled">Add Me</button>
+        </div>
+    </form>
     </main>
     <!-- début footer -->
     <footer class="footer socialicon">
@@ -117,7 +122,7 @@
           ></a>
         </li>
       </ul>
-      <div class="credit col-12">© Tekplav - 2022</div>
+      <div class="credit col-12">© AntPlc - 2022</div>
     </footer>
   </body>
 
@@ -127,8 +132,8 @@
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"
   ></script>
-
-  <!-- <script src="js/snap-svg.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script  src="function.js"></script>
 
   <!-- ANIMATION CSS -->
   <script>
