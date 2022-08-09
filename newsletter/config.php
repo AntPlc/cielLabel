@@ -8,7 +8,7 @@ $con = mysqli_connect('localhost', 'root', '','site_ciel');
 $frmEmail = $_POST['frmEmail'];
 
 // database insert SQL code
-$sql = "INSERT INTO `newsletter` (`fldEmail`) VALUES ('$frmEmail')";
+$sql = "INSERT INTO `newsletter` (`Id`, `fldEmail`) VALUES ('0', '$frmEmail')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
@@ -17,5 +17,4 @@ if($rs)
 {
 	echo "Contact Added";
 }
-
 ?>
