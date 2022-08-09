@@ -16,10 +16,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
-    </style>
     <title>DMS Paris South</title>
+    <link rel="icon" href="img/Logo DMS blanc@4x.png">
   </head>
 
   <body>
@@ -78,10 +76,10 @@
       <br /><br />
       <!-- newsletter -->
       <div class="input-group newsletter mb-3">
-        <form action="newsletter/config.php" method="post">
+        <form name="frmNews" action="newsletter/config.php" method="post">
           <div class="form-element">
-            <input type="email" class="form-control" id="mc-email" name="mc-email" placeholder="Email" required>
-            <button class="btn btn-primary" type="submit" id="register">Inscription</button>
+            <input type="email" class="form-control" id="frmEmail" name="frmEmail" placeholder="Email" required>
+            <button class="btn btn-primary" type="submit" name="Submit" id="Submit">Inscription</button>
           </div>
         </form>
       </div>
